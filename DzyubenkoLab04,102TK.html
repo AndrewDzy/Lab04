@@ -1,16 +1,43 @@
-<!doctype html>
+	<!DOCTYPE html>
 <html>
 <head>
-<title>Рядок що біжить</title>
+	<title>Рядок що біжить</title>
 </head>
-<p align="center">Текст коливається з боку в бік</p>
-<div style="background-color:#ffcc66"><marquee behavior="alternate">Текст у рядку коливається з боку в бік</marquee></div>
+<body>
+		<marquee behavior="alternate" scrollamount="4">
+			<p>Текст з сторони в сторону</p>
+			<img src="fon.jpg" alt="fon">
+		</marquee>
 <br>
-<div style="background-color:#ffcc66"><marquee behavior="alternate">Текст у рядку коливається з боку в бік</marquee></div>
+		<marquee direction="up" behavior="scroll">
+<img src="fon.jpg" alt="fon">
+<img src="fon.jpg" alt="fon">
+<img src="fon.jpg" alt="fon">
+<img src="fon.jpg" alt="fon">
+<img src="fon.jpg" alt="fon">
+		</marquee>
 <br>
-<div style="background-color:#ffcc66"><marquee behavior="alternate">Текст у рядку коливається з боку в бік</marquee></div>
+		<marquee direction="up" behavior="scroll" scrollamount="3" height="100" style="overflow: hidden">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+			<img src="fon.jpg">
+		</marquee>
 <br>
-<div style="background-color:#ffcc66"><marquee behavior="alternate">Текст у рядку коливається з боку в бік</marquee></div>
-<br>
-<div style="background-color:#ffcc66"><marquee behavior="alternate">Текст у рядку коливається з боку в бік</marquee></div>
-<br>
+		<marquee direction="up" behavior="scroll" scrollamount="4" height="100" style="overflow: hidden; animation-delay: 2s">
+			<p>Текст на 2 сек</p>
+			<img src="fon.jpg">
+			<p>Текст на 4 сек</p>
+			<img src="fon.jpg"  style="animation-delay: 4s">
+			<p>Текст на 6 сек</p>
+			<img src="fon.jpg" style="animation-delay: 6s">
+		</marquee>
+	
+
+
